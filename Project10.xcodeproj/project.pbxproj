@@ -14,6 +14,7 @@
 		2242B13226CAECB900FB0B32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2242B13126CAECB900FB0B32 /* Assets.xcassets */; };
 		2242B13526CAECB900FB0B32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2242B13326CAECB900FB0B32 /* LaunchScreen.storyboard */; };
 		2242B13D26CAEE3300FB0B32 /* PersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2242B13C26CAEE3300FB0B32 /* PersonCell.swift */; };
+		22731DE426CBFE1D00A36B71 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22731DE326CBFE1D00A36B71 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		2242B13426CAECB900FB0B32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2242B13626CAECB900FB0B32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2242B13C26CAEE3300FB0B32 /* PersonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonCell.swift; sourceTree = "<group>"; };
+		22731DE326CBFE1D00A36B71 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Person.swift; path = Assets.xcassets/Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				2242B12826CAECB400FB0B32 /* AppDelegate.swift */,
 				2242B12A26CAECB400FB0B32 /* SceneDelegate.swift */,
 				2242B12C26CAECB400FB0B32 /* ViewController.swift */,
+				22731DE326CBFE1D00A36B71 /* Person.swift */,
 				2242B12E26CAECB400FB0B32 /* Main.storyboard */,
 				2242B13C26CAEE3300FB0B32 /* PersonCell.swift */,
 				2242B13126CAECB900FB0B32 /* Assets.xcassets */,
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22731DE426CBFE1D00A36B71 /* Person.swift in Sources */,
 				2242B12D26CAECB400FB0B32 /* ViewController.swift in Sources */,
 				2242B12926CAECB400FB0B32 /* AppDelegate.swift in Sources */,
 				2242B13D26CAEE3300FB0B32 /* PersonCell.swift in Sources */,
